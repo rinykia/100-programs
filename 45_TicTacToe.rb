@@ -88,7 +88,9 @@ def check_win f
 end
 
 mark = ["X", "O"]
+
 @player = mark[rand(0..1)]
+
 puts "You are playing #{@player}! \nX goes first"
 
 print_field @field
